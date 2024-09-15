@@ -1,0 +1,43 @@
+.box{
+    
+     width: 100px;
+     height: 100px;
+    
+    
+    background-color: red;
+    margin: 0 ;
+    animation-name: hello;
+    animation-delay: 0.1s;
+    animation-duration:2s;
+  
+  
+}
+@keyframes hello{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    33%{
+        width: 100px;
+        height: 100px; 
+        background-color:  rgba(179, 115, 115, 0.687);
+        margin: 0;
+        margin-left: 200px;
+      
+    }
+    66%{
+        width: 100px;
+        height: 100px; 
+        background-color: black;
+     margin-left: 200px;
+        margin-top: 150px;
+    }
+
+    100%{
+        width: 100px;
+        height: 100px; 
+        background-color: rgba(216, 154, 38, 0.915);
+        margin-left: 0;
+        margin-top: 150px;
+    }
+}
